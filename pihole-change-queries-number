@@ -24,9 +24,9 @@ echo "********************* Hello $USER! *********************"
 echo
 echo "This script changes queries number shown in pihole."
 echo "Resetting to default value (10)..."
-sudo sed -i 's/getQuerySources=[0-9][[0-9]\&topClientsBlocked=[0-9][[0-9]/getQuerySources\&topClientsBlocked/' $A
+sudo sed -i 's/getQuerySources=[0-9][0-9]\&topClientsBlocked=[0-9][0-9]/getQuerySources\&topClientsBlocked/' $A
 sudo sed -i 's/getQuerySources=&topClientsBlocked=/getQuerySources\&topClientsBlocked/' $A
-sudo sed -i 's/topItems=[0-9][[0-9]/topItems/' $A
+sudo sed -i 's/topItems=[0-9][0-9]/topItems/' $A
 sudo sed -i 's/topItems=/topItems/' $A
 
 echo
