@@ -12,9 +12,7 @@ valori() {
 	echo " $t 'Top Clients (total)'"
 	echo " $b 'Top Clients (blocked only)'"
 	echo
-	echo "Please refresh pihole web page from your browser and don't forget"
-	echo "to reset to default value launching this script before update pihole."
-	echo "Otherwise pihole return error and it doesn't update!"
+	echo "Please refresh pihole web page from your browser!"
 	echo
 }
 
